@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Outrolla</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="#home">
+                <img src="images/global/logo.png" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__item">
+                    <li class="header__list">
+                        <a class="header__link" href="#geography">Geography</a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="#about">About</a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="#numbers">Numbers</a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="#values">Values</a>
+                    </li>
+                    <li class="header__list">
+                        <a class="header__link" href="#career">Career</a>
+                    </li>
+                </ul>
+                <a class="btn" href="#vacancies">I want to join the team</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="container">
+            <h1 class="home__title">
+                <span>H</span>
+                <span>e</span>
+                <span>r</span>
+                <span>e</span>
+                <span>t</span>
+                <span>o</span>
+                <br>
+                <span>r</span>
+                <span>o</span>
+                <span>c</span>
+                <span>k</span>
+                <span>t</span>
+                <span>h</span>
+                <span>e</span>
+                <span>w</span>
+                <span>o</span>
+                <span>r</span>
+                <span>l</span>
+                <span>d</span>
+            </h1>
+            <div class="main-subtitle">We develop IT projects that turn the world upside down. Looking for people to be part of our team.</div>
+            <div class="home__wrapper">
+                <li class="home__emoji">
+                    <img src="images/home/emoji-1.png" alt="emoji">
+                </li>
+                <li class="home__emoji"></li>
+                <li class="home__emoji">
+                    <img src="images/home/emoji-2.png" alt="emoji">
+                </li>
+                <li class="home__emoji"></li>
+                <li class="home__emoji">
+                    <img src="images/home/hand-rock-n-roll.png" alt="hand">
+                </li>
+                <li class="home__emoji"></li>
+                <li class="home__emoji">
+                    <img src="images/home/emoji-3.png" alt="emoji">
+                </li>
+                <li class="home__emoji">
+                    <img src="images/home/logo.png" alt="logo">
+                </li>
+                <li class="home__emoji">
+                    <img src="images/home/emoji-4.png" alt="emoji">
+                </li>
+                <li class="home__emoji"></li>
+                <li class="home__emoji">
+                    <img src="images/home/hand-peace.png" alt="hand">
+                </li>
+                <li class="home__emoji"></li>
+                <li class="home__emoji">
+                    <img src="images/home/hand-mobile.png" alt="hand">
+                </li>
+                <li class="home__emoji"></li>
+                <li class="home__emoji">
+                    <img src="images/home/emoji-5.png" alt="emoji">
+                </li>
+            </div>
+        </div>
+    </section>
+
+    <section class="geography" id="geography">
+        <div class="container">
+            <div class="geography__wrapper">
+                <div class="geography__wrapper-title">
+                    <h2 class="geography__title">
+                        <span>W</span>
+                        <span>o</span>
+                        <span>r</span>
+                        <span>k</span>
+                        <span>r</span>
+                        <span>e</span>
+                        <span>m</span>
+                        <span>o</span>
+                        <span>t</span>
+                        <span>e</span>
+                        <span>l</span>
+                        <span>y</span>
+                        <br>
+                        <span>w</span>
+                        <span>i</span>
+                        <span>t</span>
+                        <span>h</span>
+                        <span>T</span>
+                        <span>i</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>-</span>
+                        <span>1</span>
+                        <span>m</span>
+                        <span>a</span>
+                        <span>r</span>
+                        <span>k</span>
+                        <span>e</span>
+                        <span>t</span>
+                        <span>s</span>
+                    </h2>
+                    <div class="geography__flags">
+                        <div class="geography__flag" data-flag="great-britain">
+                            <img src="images/geography/great-britain.png" alt="great-britain">
+                        </div>
+                        <div class="geography__flag" data-flag="usa">
+                            <img src="images/geography/usa.png" alt="usa">
+                        </div>
+                        <div class="geography__flag" data-flag="canada">
+                            <img src="images/geography/canada.png" alt="canada">
+                        </div>
+                        <div class="geography__flag" data-flag="australia">
+                            <img src="images/geography/australia.png" alt="australia">
+                        </div>
+                    </div>
+                </div>
+                <div class="main-subtitle">Outrolla is a team of professionals with a full range of competencies for the complex development of IT projects. We are developing a culture of remote work and are not afraid of geographical distribution. We work with the whole world</div>
+            </div>
+            <div class="geography__map">
+                <img src="images/geography/map.png" id="map" alt="map">
+                <ul class="geography__points">
+                    <li class="geography__point" data-point="great-britain"></li>
+                    <li class="geography__point" data-point="usa"></li>
+                    <li class="geography__point geography__point--active" data-point="canada"></li>
+                    <li class="geography__point" data-point="australia"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container"></div>
+        <div class="about__wrapper">
+            <div class="about__desc-wrapper">
+                <div class="about__desc">
+                    <h2 class="about__title">
+                        <span>W</span>
+                        <span>h</span>
+                        <span>o</span>
+                        <span>a</span>
+                        <span>r</span>
+                        <span>e</span>
+                        <span>w</span>
+                        <span>e</span>
+                        <span>?</span>
+                    </h2>
+                    <div class="main-subtitle">Outrolla is a fast growing IT company. We successfully develop and promote our own products. All our projects have gone from idea to successful implementation.<br><br>We are a highly effective team of young professionals and the right choice for career growth. Our goal and the only way to succeed is to get people to use our products for as long as possible, giving them the best experience they can get.</div> 
+                </div>
+            </div>
+            <div class="about__parallax-wrapper">
+                <div class="about__parallax">
+                    <img class="about__benefits" data-speed="-1" src="images/about/big-projects.png" alt="big-projects">
+                    <img class="about__benefits" data-speed="1" src="images/about/new-ideas.png" alt="new-ideas">
+                    <img class="about__benefits" data-speed="2" src="images/about/fire-bonuses.png" alt="fire-bonuses">
+                    <img class="about__benefits" data-speed="3" src="images/about/career.png" alt="career">
+                    <img class="about__benefits" data-speed="4" src="images/about/the-dream-team.png" alt="the-dream-team">
+                    <div class="about__team">
+                        <img src="images/about/team.png" alt="team">
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <section class="numbers" id="numbers">
+        <div class="container">
+            <div class="numbers__wrapper">
+                <div class="numbers__images-wrapper">
+                    <div class="numbers__images">
+                        <img src="images/numbers/job.png" alt="job">
+                    </div>
+                </div>
+                <div class="numbers__desc">
+                    <h2 class="numbers__title">
+                        <span>A</span>
+                        <span>b</span>
+                        <span>o</span>
+                        <span>u</span>
+                        <span>t</span>
+                        <span>u</span>
+                        <span>s</span>
+                        <span>i</span>
+                        <span>n</span>
+                        <span>n</span>
+                        <span>u</span>
+                        <span>m</span>
+                        <span>b</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>s</span>
+                    </h2>
+                    <div class="main-subtitle">We are a young company, but we have already managed to achieve high results. We are looking for those who are ready to move forward, work hard and become better every day</div>
+                    <ul class="numbers__list">
+                        <li class="numbers__item">
+                            <div class="numbers__name">5 countries</div>
+                            <div class="numbers__text">Employees are located in Cyprus, Bali, Ukraine, Russia and Belarus</div>
+                        </li>
+                        <li class="numbers__item">
+                            <div class="numbers__name">20 people</div>
+                            <div class="numbers__text">Talented professionals who already work with us</div>
+                        </li>
+                        <li class="numbers__item">
+                            <div class="numbers__name">More than 3</div>
+                            <div class="numbers__text">Product areas we work with</div>
+                        </li>
+                        <li class="numbers__item">
+                            <div class="numbers__name">1 year</div>
+                            <div class="numbers__text">Average career growth from one position to another</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ticker">
+        <ul class="ticker__list">
+            <li class="ticker__item">Passionately love</li>
+            <li class="ticker__item">We create a new reality</li>
+            <li class="ticker__item">Learning from each other</li>
+            <li class="ticker__item">Looking for meaning</li>
+            <li class="ticker__item">We are constantly opening new</li>
+            <li class="ticker__item">Passionately love</li>
+            <li class="ticker__item">We create a new reality</li>
+            <li class="ticker__item">Learning from each other</li>
+            <li class="ticker__item">Looking for meaning</li>
+            <li class="ticker__item">We are constantly opening new</li>
+        </ul>
+    </section>
+
+    <section class="values" id="values">
+        <div class="container">
+            <h2 class="values__title">
+                <span>O</span>
+                <span>u</span>
+                <span>r</span>
+                <span>v</span>
+                <span>a</span>
+                <span>l</span>
+                <span>u</span>
+                <span>e</span>
+                <span>s</span>
+            </h2>
+            <div class="main-subtitle">We structure the work environment so that everyone can grow and reach their maximum potential</div>
+            <ul class="values__list">
+                <li class="values__item">
+                    <div class="values__emoji">
+                        <img src="images/values/emoji-1.png" alt="avatar">
+                    </div>
+                    <div class="values__text">Ambition</div>
+                    <div class="values__desc">Continuous investment in strong people and their ambitions</div>
+                </li>
+                <li class="values__item">
+                    <div class="values__emoji">
+                        <img src="images/values/emoji-2.png" alt="avatar">
+                    </div>
+                    <div class="values__text">Motivation</div>
+                    <div class="values__desc">We are a dedicated and highly efficient team</div>
+                </li>
+                <li class="values__item">
+                    <div class="values__emoji">
+                        <img src="images/values/emoji-3.png" alt="avatar">
+                    </div>
+                    <div class="values__text">Team</div>
+                    <div class="values__desc">People are our greatest asset</div>
+                </li>
+                <li class="values__item">
+                    <div class="values__emoji">
+                        <img src="images/values/emoji-4.png" alt="avatar">
+                    </div>
+                    <div class="values__text">Management</div>
+                    <div class="values__desc">We encourage leadership and respect people's opinions</div>
+                </li>
+                <li class="values__item">
+                    <div class="values__emoji">
+                        <img src="images/values/emoji-5.png" alt="avatar">
+                    </div>
+                    <div class="values__text">Education</div>
+                    <div class="values__desc">We never stop learning and actively share knowledge</div>
+                </li>
+                <li class="values__item">
+                    <div class="values__emoji">
+                        <img src="images/values/emoji-6.png" alt="avatar">
+                    </div>
+                    <div class="values__text">Help and trust</div>
+                    <div class="values__desc">Feel free to ask for help. We rely on each other</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="career" id="career">
+        <div class="container">
+            <h2 class="career__title">
+                <span>W</span>
+                <span>h</span>
+                <span>a</span>
+                <span>t</span>
+                <span>d</span>
+                <span>o</span>
+                <span>w</span>
+                <span>e</span>
+                <span>o</span>
+                <span>f</span>
+                <span>f</span>
+                <span>e</span>
+                <span>r</span>
+            </h2>
+            <div class="career__wrapper">
+                <ul class="career__list">
+                    <li class="career__item">
+                        <div class="career__number">01</div>
+                        <div class="career__name">Distant work</div>
+                        <div class="career__desc">We love and know how to work remotely. Employees work freely from any comfortable place.</div>
+                    </li>
+                    <li class="career__item">
+                        <div class="career__number">02</div>
+                        <div class="career__name">Development and assistance</div>
+                        <div class="career__desc">We believe in the right to make mistakes. For a good specialist, failure is just an excuse to change for the better. We will always help to develop the missing skills.</div>
+                    </li>
+                    <li class="career__item">
+                        <div class="career__number">03</div>
+                        <div class="career__name">Flexible Structure</div>
+                        <div class="career__desc">We encourage independence and creativity in solving problems. You can freely move between projects.</div>
+                    </li>
+                    <li class="career__item">
+                        <div class="career__number">04</div>
+                        <div class="career__name">Healthy perfectionism</div>
+                        <div class="career__desc">We are professionals who love what we do. We work to beautifully do complex things that bring benefits.</div>
+                    </li>
+                </ul>
+                <div class="career__background">
+                    <img src="images/career/background.png" alt="background">
+                </div>
+                <div class="career__hand">
+                    <img src="images/career/hand-career.png" alt="hand">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ticker">
+        <ul class="ticker__list">
+            <li class="ticker__item">We work with market leaders</li>
+            <li class="ticker__item">We do projects for brands that change the market</li>
+            <li class="ticker__item">Interesting work that will be noticed in the world</li>
+            <li class="ticker__item">We work with market leaders</li>
+            <li class="ticker__item">We do projects for brands that change the market</li>
+            <li class="ticker__item">Interesting work that will be noticed in the world</li>
+        </ul>
+    </section>
+
+    <section class="vacancies" id="vacancies">
+        <div class="container">
+            <h2 class="vacancies__title">
+                <span>O</span>
+                <span>p</span>
+                <span>e</span>
+                <span>n</span>
+                <span>v</span>
+                <span>a</span>
+                <span>c</span>
+                <span>a</span>
+                <span>n</span>
+                <span>c</span>
+                <span>i</span>
+                <span>e</span>
+                <span>s</span>
+            </h2>
+            <div class="vacancies__vacancy">
+                <div class="vacancies__name">Copywriter</div>
+                <div class="vacancies__desc">Full time, remote work.<br>New project</div>
+                <button class="btn" data-modal-btn="vacancy">To learn more</button>
+            </div>
+            <div class="vacancies__add-wrapper">
+                <div class="vacancies__add">
+                    <div class="vacancies__info">Didn't find the right one?</div>
+                    <div class="main-subtitle">We are constantly looking for different specialists. If you feel that you want to work with us, then leave information about yourself and we will think about how to use your potential</div>
+                    <button class="btn" data-modal-btn="response">Send feedback</button>
+                </div>
+                <div class="vacancies__images-wrapper">
+                    <div class="vacancies__images">
+                        <img src="images/vacancies/man.png" alt="man">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a class="footer__logo" href="#home">
+                    <img src="images/global/logo.png" alt="logo">
+                </a>
+                <div class="footer__text">© Outrolla ltd. All rights reserved</div>
+                <a class="footer__text" href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <section class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__item vacancy" data-modal-item="vacancy">
+                <div class="vacancy__title">Copywriter</div>
+                <button class="btn" data-modal-btn="vacancy-response">Respond</button>
+                <div class="vacancy__desc">Copywriter (distant work)<br>From $650 to $1000 per hand + bonuses.<br>Full time, remote work.<br>We are Outrolla - a young product IT company, we create products in edtech, wellness and other niches, all exclusively for foreign markets. Now a core team is being formed on a new hot project and we need a Copywriter.<br><span>What will you do:</span>
+                <ul>
+                    <li>Write content texts for our products.</li>
+                    <li>Create effective onboarding quizzes with engaging questions.</li>
+                    <li>Write text for landing/sales pages.</li>
+                    <li>Create screen prototypes for our products in collaboration with a UI/UX designer.</li>
+                    <li>Rewriting.</li>
+                </ul>
+                <span>Requirements:</span>
+                <ul>
+                    <li>2 years experience as a copywriter.</li>
+                    <li>Flexibility and the ability to think outside the box.</li>
+                    <li>Having a portfolio.</li>
+                </ul>
+                <span>The advantage will be:</span>
+                <ul>
+                    <li>Have experience with IT products in the wellness niche (diet, sports, psychology, etc.)</li>
+                    <li>I have experience in other product IT companies.</li>
+                    <li>Have experience in online or business education.</li>
+                    <li>Experience in tools such as MIRO and Figma.</li>
+                </ul>
+                <span>Terms:</span>
+                <ul>
+                    <li>Salary will be discussed with the successful candidate.</li>
+                    <li>Working hours: 5/1 from 09.00 to 18.30 GMT +3</li>
+                    <li>Small team, responsibility for the result.</li>
+                    <li>Completely remote work with your own communication system.</li>
+                </ul></div>
+            </div>
+            <div class="modal__item response" data-modal-item="response">
+                <form class="response__form" action="#">
+                    <h2 class="response__title">Leave a response</h2>
+                    <div class="response__name">Last name First name:</div>
+                    <input required placeholder="Your name" type="text" name="name">
+                    <div class="response__name">Your e-mail:</div>
+                    <input required placeholder="examle@gmail.com" type="email" name="email">
+                    <div class="response__name">Your phone number:</div>
+                    <input required placeholder="examle@gmail.com" type="number" name="phone">
+                    <div class="response__name">Telegram username:</div>
+                    <input required placeholder="@name" type="text" name="telegram">
+                    <div class="response__name">Tell about yourself in a free format:</div>
+                    <textarea required placeholder="Indicate your work experience, competencies and in which area you want to develop" rows="10" name="message"></textarea>
+                    <button class="btn">Send</button>
+                    <div class="response__text">By submitting the form you agree to the <span><u>privacy policy</u></span></div>
+                </form>
+            </div>
+            <div class="modal__item response" data-modal-item="vacancy-response">
+                <form class="response__form" action="#">
+                    <h2 class="response__title">Response to a job</h2>
+                    <div class="response__vacancy">Copywriter</div>
+                    <div class="response__name">Last name First name:</div>
+                    <input required placeholder="Your name" type="text" name="name">
+                    <div class="response__name">Your e-mail:</div>
+                    <input required placeholder="examle@gmail.com" type="email" name="email">
+                    <div class="response__name">Your phone number:</div>
+                    <input required placeholder="examle@gmail.com" type="number" name="phone">
+                    <div class="response__name">Telegram username:</div>
+                    <input required placeholder="@name" type="text" name="telegram">
+                    <div class="response__name">Tell about yourself in a free format:</div>
+                    <textarea required placeholder="Indicate your work experience, competencies and in which area you want to develop" rows="10" name="message"></textarea>
+                    <button class="btn">Send feedback</button>
+                    <div class="response__text">By submitting the form you agree to the <span><u>privacy policy</u></span></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/script.min.js"></script>
+</body>
+</html>

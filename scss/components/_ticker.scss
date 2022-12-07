@@ -1,0 +1,32 @@
+.ticker {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 0;
+    background:rgba(50, 238, 135, 1);
+    &__list {
+        display: flex;
+        animation: ticker 30s linear infinite;
+    }
+    &__item {
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        color: rgba(0, 0, 0, 1);
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 1.7;
+        white-space: nowrap;
+        padding: 0 20px;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 50%;
+            left: -3px;
+            transform: translateY(-50%);
+            width: 6px;
+            height: 6px;
+            background:rgba(0, 0, 0, 1);
+            border-radius: 50%;
+        }
+    }
+}

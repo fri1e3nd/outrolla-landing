@@ -1,0 +1,15 @@
+.btn {
+    font-family: 'Prompt', sans-serif;
+    color: rgba(1, 24, 36, 1);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 36px;
+    background: rgba(50, 238, 135, 1);
+    border-radius: 10px;
+    transition: all .3s ease;
+    &:hover {
+        color: rgba(1, 1, 1, 1);
+        box-shadow: 0px 0px 15px 0px rgba(50, 238, 135, .5);
+    }
+}
